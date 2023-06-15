@@ -7,6 +7,7 @@
   curl,
   darwin,
   libiconv,
+  openssl,
   pkg-config,
 }:
 rustPlatform.buildRustPackage rec {
@@ -21,6 +22,7 @@ rustPlatform.buildRustPackage rec {
   buildInputs =
     [
       curl.dev
+      openssl.dev
     ]
 
     # For MacOS
