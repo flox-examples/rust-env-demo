@@ -4,9 +4,10 @@
   rustPlatform,
   hostPlatform,
   # you can add imports here
-  libiconv,
-  darwin,
   curl,
+  darwin,
+  libiconv,
+  pkg-config,
 }:
 rustPlatform.buildRustPackage rec {
   pname = "rust-env-package";
@@ -29,6 +30,11 @@ rustPlatform.buildRustPackage rec {
       libiconv
       # Needed to build curl-sys
       darwin.apple_sdk.frameworks.SystemConfiguration
+    ];
+
+  nativeBuildInputs =
+    [
+      pkg-config
     ];
 
   meta.description = "an example flox package";
