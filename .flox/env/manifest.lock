@@ -1,0 +1,325 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "install": {
+      "cargo": {
+        "path": "cargo"
+      },
+      "cargo-flamegraph": {
+        "path": "cargo-flamegraph"
+      },
+      "cargo-semver-checks": {
+        "path": "cargo-semver-checks"
+      },
+      "cargo-watch": {
+        "path": "cargo-watch"
+      },
+      "clippy": {
+        "path": "clippy"
+      },
+      "just": {
+        "path": "just"
+      },
+      "rust-analyzer": {
+        "path": "rust-analyzer"
+      },
+      "rustc": {
+        "path": "rustc"
+      },
+      "rustfmt": {
+        "path": "rustfmt"
+      }
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.05",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    }
+  },
+  "packages": {
+    "aarch64-darwin": {
+      "cargo": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "cargo",
+          "unfree": false,
+          "version": "1.69.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "cargo-flamegraph": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo-flamegraph"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "cargo-flamegraph",
+          "unfree": false,
+          "version": "0.6.3"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "cargo-semver-checks": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo-semver-checks"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "cargo-semver-checks",
+          "unfree": false,
+          "version": "0.20.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "cargo-watch": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo-watch"
+        ],
+        "info": {
+          "broken": false,
+          "license": "CC0-1.0",
+          "pname": "cargo-watch",
+          "unfree": false,
+          "version": "8.4.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "clippy": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "clippy"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "clippy",
+          "unfree": false,
+          "version": "1.69.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "just": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "just"
+        ],
+        "info": {
+          "broken": false,
+          "license": "CC0-1.0",
+          "pname": "just",
+          "unfree": false,
+          "version": "1.13.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "rust-analyzer": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "rust-analyzer"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "rust-analyzer",
+          "unfree": false,
+          "version": "2023-05-15"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "rustc": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "rustc"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "rustc",
+          "unfree": false,
+          "version": "1.69.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      },
+      "rustfmt": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "rustfmt"
+        ],
+        "info": {
+          "broken": false,
+          "license": null,
+          "pname": "rustfmt",
+          "unfree": false,
+          "version": "1.69.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1703581207,
+            "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+            "type": "github"
+          },
+          "fingerprint": "2dc95bbbd3428fd5460246982b710de7974b6b5e95d8a1a0edaa64a6b9dbca2a",
+          "url": "github:NixOS/nixpkgs/3af9fc0ff392a79045fb467dd018f41b50fb02c4"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1703581207,
+          "narHash": "sha256-ooNIbzPoCgWbNqY7jWAAo61Mj7BzdS2S1syqwR07keA=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "3af9fc0ff392a79045fb467dd018f41b50fb02c4",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
