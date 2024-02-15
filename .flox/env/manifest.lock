@@ -1,0 +1,303 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "install": {
+      "cargo": {
+        "pkg-path": "cargo"
+      },
+      "cargo-flamegraph": {
+        "pkg-path": "cargo-flamegraph"
+      },
+      "cargo-semver-checks": {
+        "pkg-path": "cargo-semver-checks"
+      },
+      "cargo-watch": {
+        "pkg-path": "cargo-watch"
+      },
+      "clippy": {
+        "pkg-path": "clippy"
+      },
+      "rust-analyzer": {
+        "pkg-path": "rust-analyzer"
+      },
+      "rustc": {
+        "pkg-path": "rustc"
+      },
+      "rustfmt": {
+        "pkg-path": "rustfmt"
+      }
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    }
+  },
+  "packages": {
+    "aarch64-darwin": {
+      "cargo": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Downloads your Rust project's dependencies and builds your project",
+          "license": null,
+          "pname": "cargo",
+          "unfree": false,
+          "version": "1.73.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "cargo-flamegraph": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo-flamegraph"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Easy flamegraphs for Rust projects and everything else, without Perl or pipes <3",
+          "license": null,
+          "pname": "cargo-flamegraph",
+          "unfree": false,
+          "version": "0.6.5"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "cargo-semver-checks": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo-semver-checks"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A tool to scan your Rust crate for semver violations",
+          "license": null,
+          "pname": "cargo-semver-checks",
+          "unfree": false,
+          "version": "0.27.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "cargo-watch": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "cargo-watch"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A Cargo subcommand for watching over Cargo project's source",
+          "license": "CC0-1.0",
+          "pname": "cargo-watch",
+          "unfree": false,
+          "version": "8.5.2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "clippy": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "clippy"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A bunch of lints to catch common mistakes and improve your Rust code",
+          "license": null,
+          "pname": "clippy",
+          "unfree": false,
+          "version": "1.73.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "rust-analyzer": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "rust-analyzer"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A modular compiler frontend for the Rust language",
+          "license": null,
+          "pname": "rust-analyzer",
+          "unfree": false,
+          "version": "2023-11-13"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "rustc": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "rustc"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A safe, concurrent, practical language",
+          "license": null,
+          "pname": "rustc",
+          "unfree": false,
+          "version": "1.73.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      },
+      "rustfmt": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "rustfmt"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A tool for formatting Rust code according to style guidelines",
+          "license": null,
+          "pname": "rustfmt",
+          "unfree": false,
+          "version": "1.73.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1707949703,
+            "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+            "type": "github"
+          },
+          "fingerprint": "efa4300bf895235b816a7a59438cc2f27e88a20e43048837592c4db5b6d9a4d1",
+          "url": "github:NixOS/nixpkgs/058336b2b3a1cfef76fa84487aca3f4def26cf2d"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1707949703,
+          "narHash": "sha256-0eMf6XSW0IyJI3FujxHIJrPKKDEyCYO6QUmfwe/s2Yo=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "058336b2b3a1cfef76fa84487aca3f4def26cf2d",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
